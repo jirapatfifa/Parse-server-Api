@@ -5,6 +5,6 @@ RUN git pull
 RUN npm install
 COPY ./server.key /app
 COPY ./server.crt /app
-EXPOSE 8205
+EXPOSE 8705
 CMD ["node", "api-wallboard-https.js"]
 
